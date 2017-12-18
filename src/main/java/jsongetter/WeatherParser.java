@@ -7,10 +7,10 @@ import org.json.simple.parser.ParseException;
 import java.io.IOException;
 import java.io.Reader;
 
-public class JsonGetter {
+public class WeatherParser {
     private final JsonReader jsonReader;
 
-    public JsonGetter(JsonReader jsonReader) {
+    public WeatherParser(JsonReader jsonReader) {
         this.jsonReader = jsonReader;
     }
 
